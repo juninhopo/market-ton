@@ -26,14 +26,18 @@
 
     font-family: sans-serif;
     font-size: 15px;
+    
 }
 
 .buttonAdd {
     border-radius: 15px;
     padding: 5px;
     background-color: #37e51b;
-    margin: 5px auto;
+    margin: 20px auto;
     
     width: 60%;
+
+    text-transform: uppercase;
+
 }
 

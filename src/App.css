@@ -8,6 +8,8 @@
 
 button {
   cursor: pointer;
+
+  font-family: sans-serif;
 }
 
 div#body {

@@ -15,7 +15,7 @@ function ProductInCart({ data }: ProductInCartProps) {
 
             <div className="namecar">
                 <p>{name}</p>
-                <strong>R$ {price}</strong>
+                <strong>{new Intl.NumberFormat('pt-BR', {style: 'currency', currency:'BRL'}).format(price)}</strong>
                 <button type="button" className="buttonRemove">
                     <AiFillCloseCircle size={35}/>
                 </button>    
