@@ -14,7 +14,7 @@ function ProductsList({ cart, handleAddOrRemoveProduct }: ProductListProps) {
     {
       id: 1,
       name: "Mustang",
-      url: "https://www.limahobbies.com.br/arquivos/ids/185674-400-400/Miniatura-Ford-Mustang-Gt-1967-1-24-Special-Edition-Maisto-VERMELHO-31260-01.jpg?v=637713948661730000",
+      url: "https://www.competitionhobbies.com.br/img/products/bolha-mustang-fastback-67-1-10-de-200mm-clear-sem-pintura_1_600.jpg  ",
       price: 350000,
     },
     {
