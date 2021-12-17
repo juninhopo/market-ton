@@ -14,13 +14,17 @@
 #->No terminal:
 # Clonar repositório:
 $ git clone https://github.com/juninhopo/market-ton.git
+
 # Entrar no diretório desejado:
 -> $ cd frontend
 -> $ cd backend
+
 # Instalar dependências
 $ yarn install
+
 # Iniciar o projeto
 $ yarn start    # Abrir o Frontend
 $ yarn server   # Subir o servidor
+
 # Após carregar o projeto automaticamente irá abrir uma guia no navegador padrão.
 ```
