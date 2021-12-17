@@ -9,7 +9,7 @@ function Product ({ data }: ProductProps) {
   const { name, url, price } = data
 
   return (
-    <div id="container">
+    <div className="container">
       <img src={url} alt={name} />
 
       <div className="namecar">

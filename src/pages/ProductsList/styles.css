@@ -1,6 +1,10 @@
 .product-list {
     display: grid;
     background-color: blue;
-    margin: 5px;
-    
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+
 }
