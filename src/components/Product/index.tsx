@@ -1,13 +1,20 @@
+import { IProduct } from '../../Routes'
+
 import './styles.css'
-import { IProduct } from '../../App'
 
 
 interface ProductProps {
   data: IProduct
+  handleAddOrRemoveProduct: (product: IProduct) => void;
+  alreadyIsInCart: boolean
 }
 
-function Product ({ data }: ProductProps) {
+function Product ({ data, handleAddOrRemoveProduct, alreadyIsInCart }: ProductProps) {
   const { name, url, price } = data
+
+  function handleClick() {
+    handleAddOrRemoveProduct(data)
+  }
 
   return (
     <div className="container">
@@ -16,7 +23,15 @@ function Product ({ data }: ProductProps) {
       <div className="namecar">
         <p>{name}</p>
         <strong>{new Intl.NumberFormat('pt-BR', {style: 'currency', currency:'BRL'}).format(price)}</strong>
-        <button className="buttonAdd">Adicionar</button>
+        <button 
+          className="buttonAdd" 
+          onClick={handleClick} 
+          style={alreadyIsInCart ? { backgroundColor: 'red'} : { backgroundColor: '#37e51b' }}
+        >
+          {
+            alreadyIsInCart ? 'Remover' : 'Adicionar'
+          }
+        </button>
       </div>
 
     </div>

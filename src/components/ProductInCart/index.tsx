@@ -1,22 +1,28 @@
-import './style.css'
-import { IProduct } from '../../App'
 import { AiFillCloseCircle } from 'react-icons/ai'
+import { IProduct } from '../../Routes'
 
+import './style.css'
 interface ProductInCartProps {
     data: IProduct
+    handleAddOrRemoveProduct: (product: IProduct) => void;
 }
 
-function ProductInCart({ data }: ProductInCartProps) {
+function ProductInCart({ data, handleAddOrRemoveProduct}: ProductInCartProps) {
     const { name, url, price } = data
 
+
+    function handleClick() {
+        handleAddOrRemoveProduct(data)
+    }
+
     return (
-        <div className="container">
+        <div className="cart-container">
             <img src={url} alt={name} />
 
-            <div className="namecar">
+            <div className="namecar-cart">
                 <p>{name}</p>
                 <strong>{new Intl.NumberFormat('pt-BR', {style: 'currency', currency:'BRL'}).format(price)}</strong>
-                <button type="button" className="buttonRemove">
+                <button type="button" className="buttonRemove-cart" onClick={handleClick}>
                     <AiFillCloseCircle size={35}/>
                 </button>    
             </div>
