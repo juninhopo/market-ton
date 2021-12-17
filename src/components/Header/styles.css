@@ -27,9 +27,20 @@ header {
 }
 
 .iconCart {
-  display: grid;
   width: 25px;
   height: 25px;
   position: absolute;
   right: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+
+}
+
+.iconCart svg {
+  width: 100%;
+  height: 100%;
 }

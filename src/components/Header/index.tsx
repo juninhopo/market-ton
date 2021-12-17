@@ -6,7 +6,11 @@ function Header () {
   return (
     <header>
       <p className="titlePage">Ton Cars</p>
-      <ImCart className="iconCart"/>
+
+      <button className="iconCart">
+        <ImCart/>
+      </button>
+
     </header>
   )
 }
