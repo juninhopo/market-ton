@@ -10,6 +10,8 @@ header {
   align-items: center;
 
   padding: 0 200px;
+
+  font-weight: bold;
 }
 
 .titlePage {
