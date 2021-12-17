@@ -1,8 +1,9 @@
-import "style.css";
+import "../Cart/style.css";
 
 function Cart () {
     return (
-        <h1>Card Page</h1>
+        <h1>Seu Carrinho:</h1>
+        
     )
 }
 
