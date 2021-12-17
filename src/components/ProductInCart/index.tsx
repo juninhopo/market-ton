@@ -1,4 +1,4 @@
-import './styles.css'
+import './style.css'
 import { IProduct } from '../../App'
 import { AiFillCloseCircle } from 'react-icons/ai'
 
@@ -10,11 +10,15 @@ function ProductInCart ({ data }: ProductInCartProps) {
   const { name, url, price } = data
 
   return (
-    <div id="container">
-      <img src={url} alt={name} />
-      <p>{name}</p>
-      <strong>{price}</strong>
-      <button>< AiFillCloseCircle /></button>
+    <div className="container">
+        <img src={url} alt={name} />
+
+        <div className="namecar">
+            <p>{name}</p>
+            <strong>R$ {price}</strong>
+            <AiFillCloseCircle className="buttonRemove"/>
+
+        </div>
     </div>
   )
 }
