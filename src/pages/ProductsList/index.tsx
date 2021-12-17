@@ -50,14 +50,10 @@ function ProductsList({ cart, handleAddOrRemoveProduct }: ProductListProps) {
   ];
 
   return (
-    <div id="container">
-      <div className="">
-
+    <div className="product-list">
         {productsList.map((product) => {
           return <Product data={product} />;
         })}
-        
-      </div>
     </div>
   );
 }

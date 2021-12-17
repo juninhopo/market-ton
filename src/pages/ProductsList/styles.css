@@ -1,11 +1,6 @@
-.title2 {
-    color: red;
-}
-
-h1 {
-    color: yellow;
-}
-
-#title {
-    color: blue;
+.product-list {
+    display: grid;
+    background-color: blue;
+    margin: 5px;
+    
 }

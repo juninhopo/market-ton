@@ -11,9 +11,13 @@ function Product ({ data }: ProductProps) {
   return (
     <div id="container">
       <img src={url} alt={name} />
-      <p>{name}</p>
-      <strong>{price}</strong>
-      <button>Adicionar</button>
+
+      <div className="namecar">
+        <p>{name}</p>
+        <strong>{price}</strong>
+        <button>Adicionar</button>
+      </div>
+
     </div>
   )
 }
