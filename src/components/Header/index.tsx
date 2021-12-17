@@ -5,8 +5,8 @@ import './styles.css'
 function Header () {
   return (
     <header>
-      <p id="title-page">Ton Cars</p>
-      <ImCart/>
+      <p className="titlePage">Ton Cars</p>
+      <ImCart className="iconCart"/>
     </header>
   )
 }
