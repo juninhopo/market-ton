@@ -53,9 +53,9 @@ function App() {
   return (
     <div id="body">
       <Header />
-      <Cart/>
+      {/* <Cart/> */}
 
-      {/* <ProductsList cart={cart} handleAddOrRemoveProduct={handleAddOrRemoveProduct}  /> */}
+      <ProductsList cart={cart} handleAddOrRemoveProduct={handleAddOrRemoveProduct}  />
     </div>
   );
 }
