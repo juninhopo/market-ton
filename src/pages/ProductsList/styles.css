@@ -1,6 +1,5 @@
 .product-list {
     display: grid;
-    background-color: blue;
     margin: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;

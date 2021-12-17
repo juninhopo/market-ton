@@ -15,7 +15,7 @@ function Product ({ data }: ProductProps) {
       <div className="namecar">
         <p>{name}</p>
         <strong>{price}</strong>
-        <button>Adicionar</button>
+        <button className="buttonAdd">Adicionar</button>
       </div>
 
     </div>

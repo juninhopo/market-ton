@@ -19,7 +19,9 @@ header {
   color: #000000;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+
+  font-family: sans-serif;
 }
 
 .iconCart {
