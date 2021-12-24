@@ -6,7 +6,7 @@
 
 - O MARKET TON e um app utilizado para vender veiculos. 
 
-- Um projeto feio para analisar o Frontend focado no UX.
+- Um projeto feito para analisar o Frontend focado no UX.
 
 ##### 👉 Instalar dependências:
 
