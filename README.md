@@ -15,10 +15,6 @@
 # Clonar repositório:
 $ git clone https://github.com/juninhopo/market-ton.git
 
-# Entrar no diretório desejado:
--> $ cd frontend
--> $ cd backend
-
 # Instalar dependências
 $ yarn install
 
