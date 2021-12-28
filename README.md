@@ -19,8 +19,8 @@ $ git clone https://github.com/juninhopo/market-ton.git
 $ yarn install
 
 # Iniciar o projeto
-$ yarn start    # Abrir o Frontend
 $ yarn server   # Subir o servidor
+$ yarn start    # Abrir o Frontend
 
 # Após carregar o projeto automaticamente irá abrir uma guia no navegador padrão.
 ```
